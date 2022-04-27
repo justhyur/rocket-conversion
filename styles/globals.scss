@@ -1,0 +1,111 @@
+
+$u: 160px;
+$bg-color: #F7F7F5;
+$black: #0f0f0f;
+$grey: #999;
+$yellow: #fed303;
+$font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+  background-color: $bg-color;
+  color: $black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p{margin: 0}
+h1{
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+}
+
+.button{
+  $height: 4.5rem;
+  height: $height;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  span{
+    height: calc($height - .25rem);
+    background: linear-gradient(hsl(50, 100%, 65%),hsl(50, 100%, 50%));
+    box-shadow: 0 4px 0 0 hsl(45, 95%, 45%), 0 7px 0 1px #000, 0 6px 8px 2px #00000050;
+    text-align: center;
+    user-select: none;
+    color: black;
+    font-weight: 600;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    padding: 0 clamp(2rem, 5vw, 3rem);
+    border-radius: 2rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+  }
+  &:hover{
+    align-items: flex-start;
+    span{
+      background: linear-gradient(hsl(50, 100%, 55%),hsl(50, 100%, 40%));
+      box-shadow: 0 4px 0 0 hsl(45, 95%, 35%), 0 7px 0 1px #000, 0 6px 8px 2px #00000050;
+    }
+  }
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .container{
+    max-width: 8*$u;
+  }
+  .centered-container{
+    display: flex;
+    justify-content: center;
+  }
+  img{max-width: 100%;}
+}
+
+#jumbo-tron{
+  background-color: black;
+  color: $grey;
+  height: 100vh;
+  padding: 3rem 1rem;
+  .container{
+    max-width: 6*$u;
+    h1{
+      color: white;
+      margin: 0;
+      text-align: center;
+    }
+    >:not(:last-child){
+      margin-bottom: 2rem;
+    }
+    p{
+      max-width: 5*$u;
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      text-align: center;
+      margin-inline: auto;
+      line-height: 1.5em;
+      strong{
+        color: $yellow;
+      }
+    }
+    .video-container{
+      iframe{
+        width: 100%;
+        aspect-ratio: 1140/730;
+        border-radius: 1rem;
+      }
+    }    
+  }
+
+}
