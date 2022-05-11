@@ -1,0 +1,68 @@
+.flexm{
+    display: flex;
+
+    //Direction
+    &.dir-c{
+      flex-direction: column;
+    }
+    &.dir-cr{
+        flex-direction: column-reverse;
+    }
+    &.dir-r{
+        flex-direction: row-reverse;
+    }
+
+    //Wrap
+    &.wrap{
+        flex-wrap: wrap;
+    }
+    &.wrap-r{
+        flex-wrap: wrap-reverse;
+    }
+
+    //Justify content
+    &.j-c{
+        justify-content: center;
+    }
+    &.j-e{
+        justify-content: flex-end;
+    }
+    &.j-sa{
+        justify-content: space-around;
+    }
+    &.j-sb{
+        justify-content: space-between;
+    }
+    &.j-se{
+        justify-content: space-evenly;
+    }
+
+    //Align-items
+    &.a-c{
+        align-items: center;
+    }
+    &.a-e{
+        align-items: flex-end;
+    }
+    &.a-b{
+        align-items: baseline;
+    }
+    &.a-s{
+        align-items: stretch;
+    }
+
+    //Gap
+    $startGap: 0.25;
+    @while $startGap <= 10 {
+        &.g-#{$startGap * 100}{
+            gap: #{$startGap}rem;
+        }
+        $startGap: $startGap + 0.25;
+    }
+
+    //Combo
+    &.c-c{
+        justify-content: center;
+        align-items: center;
+    }
+  }

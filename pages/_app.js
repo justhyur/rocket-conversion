@@ -1,5 +1,6 @@
 import { GlobalContext } from '/lib/context';
-import '../styles/globals.scss'
+import '../styles/globals.scss';
+import '../styles/flexmaster.scss'
 
 function MyApp({ Component, pageProps }) {
   return(
