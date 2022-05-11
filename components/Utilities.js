@@ -45,12 +45,12 @@ export function Testimonial({stars, username, date, comment, imagePath, name, pr
      <div className="box testimonial">
       <div className="rate">
         <div className="stars">
-          {Array.from({length: Math.floor(stars)}).map(()=><BsStarFill className="star"/>)}
+          {Array.from({length: Math.floor(stars)}).map((b, index)=><BsStarFill key={`${username}${name}${profession}starfill${index}`} className="star"/>)}
           {!Number.isInteger(stars) &&
             <BsStarHalf className="star"/>
           }
           {stars < 5 &&
-            Array.from({length: 5-stars}).map(()=><BsStar className="star"/>)
+            Array.from({length: 5-stars}).map((b, index)=><BsStar key={`${username}${name}${profession}star${index}`} className="star"/>)
           }
         </div>
         <div className="signature">

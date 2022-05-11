@@ -6,19 +6,19 @@ export default function PresentationSection() {
         <div className="container">
             <div className="presentation">
                 <ProfilePic/>
-                <p>Hey — <a href="#">I'm Jack</a>, the creator of Rocket Conversion and the business analyst behind some 7 figures stores.</p>
+                <p>Hey — <a href="#">I&aposm Jack</a>, the creator of Rocket Conversion and the business analyst behind some 7 figures stores.</p>
             </div>
-            <p>I've analyzed and optimized dozens of eCommerces making them the mosthigh-converting stores in their niches, so I know a little bit about getting your online store to the top. My clients are in the field of expertise are Beauty, Fashion and High-End Food businesses.</p>
+            <p>I&aposve analyzed and optimized dozens of eCommerces making them the mosthigh-converting stores in their niches, so I know a little bit about getting your online store to the top. My clients are in the field of expertise are Beauty, Fashion and High-End Food businesses.</p>
             <p className="flexm c-c text-center"><strong>And now they all convert like crazy.</strong></p>
         </div>
         <SpecialTitle 
           pretitle="WITH MY E-COMMERCE CONVERSION CHECKLIST"
           title="You can drill down your online
           store and find out where
-          exactly you're <strong>leaving (heaps
+          exactly you&aposre <strong>leaving (heaps
           of) money on the table</strong> and
           what important part you are
-          missing out/weren't aware of"
+          missing out/weren&apost aware of"
         />
         <div className="container">
           <p> 
@@ -41,8 +41,8 @@ export default function PresentationSection() {
           stars={5}
           username="@boss1"
           date="Jan 22, 2022"
-          comment="I've seen my fair share of e-commerce checklists during the years, this one
-          takes the cake. Looks super comprehensive and it's ACTIONABLE. Superb job
+          comment="I&aposve seen my fair share of e-commerce checklists during the years, this one
+          takes the cake. Looks super comprehensive and it&aposs ACTIONABLE. Superb job
           @JackB"
           imagePath="/images/boss1.jpeg"
           name="Boss1"
