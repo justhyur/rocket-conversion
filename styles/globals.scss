@@ -69,6 +69,34 @@ p{
   text-align: center;
 }
 
+.cta-black{
+  height: 4.25rem;
+  display: flex;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: .2s;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  &:hover{
+    background-color: white;
+    color: black;
+  }
+  span{
+    height: 100%;
+    text-align: center;
+    user-select: none;
+    font-weight: 500;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    padding: 0 clamp(2rem, 5vw, 3rem);
+    border-radius: 2rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .cta{
   $height: 4.5rem;
   height: $height;
@@ -298,6 +326,7 @@ p{
   position: relative;
   background-color: black;
   padding: 3rem $frame;
+  padding-bottom: 10rem;
   &::before{
     top: 0;
     left: 0;
@@ -322,134 +351,194 @@ p{
       }
     }
   }
-  .price-card{
-    background-color: white;
-    border-radius: 1.5rem;
-    max-width: 4*$u;
-    margin-inline: auto;
-    $ptb: 1rem;
-    $plr: 5rem;
-    $plr2: 1.5rem;
-    .header{
-      text-align: center;
-      padding: $ptb $plr;
-      @media screen and (max-width: (4*$u)){
-        padding: $ptb $plr2;
-      }
-      border-top-left-radius: 1.5rem;
-      border-top-right-radius: 1.5rem;
-      background-color: #F7F7F5;
-      border-bottom: 1px solid #E5E5E5;
-      .title{
-        color: #72AB00;
-        font-size: clamp(1.2rem, 3vw, 1.5rem);
-        font-weight: 700;
-      }
-      .subtitle{
-        font-style: italic;
-        font-size: clamp(0.9rem, 2vw, 1rem);
-      }
+  .price-cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    @media screen and (max-width: (6*$u)){
+      flex-wrap: wrap;
     }
-    .body{
-      padding: $ptb $plr;
-      @media screen and (max-width: (4*$u)){
-        padding: $ptb $plr2;
+    .price-card{
+      width: 50%;
+      @media screen and (max-width: (6*$u)){
+        width: 100%;
       }
-      .pricing-table{
-        padding: 1rem 0 2rem;
-        border-bottom: 2px solid #E5E5E5;
+      background-color: white;
+      border-radius: 1.5rem;
+      max-width: 4*$u;
+      margin-inline: auto;
+      $ptb: 1rem;
+      $plr: 5rem;
+      $plr2: 1.5rem;
+      .header{
         text-align: center;
-        >*{
+        padding: $ptb $plr;
+        @media screen and (max-width: (4*$u)){
+          padding: $ptb $plr2;
+        }
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        background-color: #F7F7F5;
+        border-bottom: 1px solid #E5E5E5;
+        .title{
+          color: #72AB00;
+          font-size: clamp(1.2rem, 3vw, 1.5rem);
           font-weight: 700;
         }
-        .original{
-          color: #CCCCCC;
-          text-decoration: line-through;
-          font-size: clamp(2.5rem, 5vw, 3.5rem);
-        }
-        .current{
-          font-size: clamp(4rem, 7vw, 6.5rem);
-          margin-top: -1rem;
-        }
-        .sale{
-          display: flex;
-          justify-content: center;
-          span{
-            color: white;
-            background-color: #E02020;
-            padding: .25em .5em;
-            border-radius: .25em;
-            font-size: clamp(0.9rem, 2vw, 1rem);
-          }
-        } 
-      }
-      .title{
-        padding-top: 1rem;
-        font-weight: 700;
-        font-size: clamp(1rem, 2vw, 1.25rem);
-      }
-      ul{
-        padding: 1rem 0;
-        font-weight: 500;
-        font-size: 1rem;
-        list-style: none;
-        margin: 0;
-        border-bottom: 2px solid #E5E5E5;
-        li{
-          &:not(:last-child){
-            margin-bottom: 1rem;
-          }
-          padding-left: 4rem;
-          background: url("/images/tick.svg") no-repeat left center;
-          strong{
-            font-weight: 500;
-            font-size: 0.8em;
-            padding: 0.25em;
-            color: white;
-            background: #72AB00;
-          }
+        .subtitle{
+          font-style: italic;
+          font-size: clamp(0.9rem, 2vw, 1rem);
         }
       }
-      .info{
-        margin: 1rem 0;
-        p{
-          strong{
-            background: #F7EFD5;
-            padding: 0 .5em;
+      .body{
+        padding: $ptb $plr;
+        @media screen and (max-width: (4*$u)){
+          padding: $ptb $plr2;
+        }
+        .pricing-table{
+          padding: 1rem 0 2rem;
+          border-bottom: 2px solid #D3D3D1;
+          text-align: center;
+          >*{
+            font-weight: 700;
+          }
+          .original{
+            color: #CCCCCC;
+            text-decoration: line-through;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+          }
+          .current{
+            font-size: clamp(4rem, 7vw, 6.5rem);
+            margin-top: -1rem;
+            color: black;
+          }
+          .sale{
+            display: flex;
+            justify-content: center;
+            span{
+              color: white;
+              background-color: #E02020;
+              padding: .25em .5em;
+              border-radius: .25em;
+              font-size: clamp(0.9rem, 2vw, 1rem);
+            }
+          } 
+          &.small{
+            padding: 1rem 0;
+            .current{
+              font-size: clamp(3rem, 6vw, 4rem);
+            }
           }
         }
-        .cta{
+        .title{
+          padding-top: 1rem;
+          font-weight: 700;
+          font-size: clamp(1rem, 2vw, 1.25rem);
+        }
+        ul{
+          padding: 1rem 0;
+          font-weight: 500;
+          font-size: 1rem;
+          list-style: none;
+          margin: 0;
+          border-bottom: 2px solid #D3D3D1;
+          li{
+            &:not(:last-child){
+              margin-bottom: 1rem;
+            }
+            padding-left: 4rem;
+            background: url("/images/tick.svg") no-repeat left center;
+            strong{
+              font-weight: 500;
+              font-size: 0.8em;
+              padding: 0.25em;
+              color: white;
+              background: #72AB00;
+            }
+          }
+        }
+        .info{
           margin: 1rem 0;
+          p{
+            strong{
+              background: #F7EFD5;
+              padding: 0 .5em;
+            }
+          }
+          .cta{
+            margin: 1rem 0;
+          }
+        }
+      }
+      .footer{
+        padding: $ptb $plr;
+        @media screen and (max-width: (4*$u)){
+          padding: $ptb $plr2;
+        }
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        background-color: #F7F7F5;
+        border-top: 1px solid #E5E5E5;
+        text-align: center;
+        p{
+          font-size: clamp(1rem, 2vw, 1.1rem);
+        }
+      }
+      .pay-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        padding-top: 1rem;
+        p{
+          color: #777;
+          font-size: .75rem;
+          font-weight: 400;
+          img{
+            max-width: 100%;
+          }
+          b{
+            font-weight: 600;
+          }
+        }
+      }
+      &:last-child{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        background-color: #EBEBE9;
+        margin-top: 3rem;
+        @media screen and (max-width: (6*$u)){
+          border-top-left-radius: 1.5rem;
+          border-bottom-left-radius: 1.5rem;
+        }
+        .title{
+          color: #777;
+        }
+        .header{
+          background-color: #DBDBD9;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+          @media screen and (max-width: (6*$u)){
+            border-top-left-radius: 1.5rem;
+            border-bottom-left-radius: 1.5rem;
+          }
         }
       }
     }
-    .footer{
-      padding: $ptb $plr;
-      @media screen and (max-width: (4*$u)){
-        padding: $ptb $plr2;
-      }
-      border-bottom-left-radius: 1.5rem;
-      border-bottom-right-radius: 1.5rem;
-      background-color: #F7F7F5;
-      border-top: 1px solid #E5E5E5;
-      text-align: center;
-    }
-    .pay-info{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: .5rem;
-      padding-top: 1rem;
+  }
+  .norton{
+    width: 100%;
+    max-width: 8*$u;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .content{
       p{
-        color: #777;
-        font-size: .75rem;
-        font-weight: 400;
-        img{
-          max-width: 100%;
-        }
-        b{
-          font-weight: 600;
-        }
+        display: flex;
+        gap: 0.5rem;
+        color: #a9a9a9;
+        font-size: clamp(0.75rem, 2vw, 1rem);
       }
     }
   }
@@ -657,6 +746,25 @@ p{
       }
     }
   }
+  &.guarantee{
+    z-index: 1;
+    margin-top: -7rem;
+    max-width: 6*$u;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    @media screen and (max-width: (4*$u)){
+      flex-direction: column;
+    }
+    img{
+      width: 120px;
+      max-width: 100%;
+    }
+    h3{
+      font-size: clamp(1.5rem, 2.5vw, 2rem);
+      color: #92782E;
+    }
+  }
 }
 
 .margined{
@@ -721,6 +829,98 @@ p{
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+    }
+  }
+}
+
+#satisfaction{
+  .photo-reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    @media screen and (max-width: (4*$u)){
+      gap: 1rem;
+      padding: 1rem 0;
+    }
+    img{
+      max-width: 100%;
+    }
+  }
+  .questions-container{
+    max-width: (5*$u);
+    padding: 2rem 0;
+    @media screen and (max-width: (4*$u)){
+      padding: 1rem 0;
+    }
+    .paragraph-container{
+      width: 100%;
+      max-width: (4*$u);
+      padding: 0 2rem;
+      padding-top: 1rem;
+    }
+    .questions{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: (6*$u);
+      padding: 2rem 0;
+      @media screen and (max-width: (6*$u)){
+        padding: 1rem 0;
+      }
+      gap: 1rem;
+      .question{
+        background-color: #EBEBE9;
+        position: relative;
+        padding: 3.5rem 4rem;
+        border-radius: 1rem;
+        margin: 2rem 0;
+        @media screen and (max-width: (5.5*$u)){
+          margin: 1rem 2rem;
+          padding: 1.5rem 2rem;
+        }
+        &::after, &::before{
+          bottom: -50px;
+          left: 88px;
+          position: absolute;
+          content: '';
+          border: 25px solid transparent;
+          border-top: 25px solid #ebebe9;
+          z-index: 0;
+        }
+        &::before{
+          border-top-color: #f7f7f5;
+          bottom: auto;
+          top: 0;
+        }
+        .header{
+          border-bottom: 1px solid #D3D3D1; 
+          display: flex;
+          gap: 1rem;
+          padding: 1rem 0;
+          h4{
+            font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+          }
+          .num{
+            color: #d3d3d1;
+            font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+            font-weight: 800;
+          }
+        }
+        .body{
+          padding-top: 2rem;
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+          p{
+            strong{
+              padding: .25rem;
+              background: $highlight;
+            }
+          }
+        }
       }
     }
   }

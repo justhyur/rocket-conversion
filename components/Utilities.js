@@ -4,7 +4,7 @@ import 'moment-timezone';
 
 export function Cta() {
   return (
-        <a className="cta" href="#pricing">
+        <a className="cta" href="#prices">
             <span>Get my Rocket Profit List Now!</span>
         </a>
   )
@@ -69,16 +69,37 @@ export function Testimonial({stars, username, date, comment, imagePath, name, pr
   )
 }
 
-export function PricingTable({original, current}){
-  const perc = Math.floor(100 - ( (current * 100) / original ));
+export function PricingTable({original, current, currency}){
+  const perc = original? Math.floor(100 - ( (current * 100) / original )) : 0;
   const now = new Date();
   const dayName = moment(now).format("dddd").toUpperCase();
   return (
-    <div className="pricing-table">
-      <div className="original">€{original}</div>
-      <div className="current">€{current}</div>
-      <div className="sale">
-        <span>{perc}% OFF - But only TODAY, ON {dayName}</span>
+    <div className={`pricing-table ${original? "" : "small"}`}>
+      {original &&
+        <div className="original">{currency}{original}</div>
+      }
+      <div className="current">{currency}{current}</div>
+      {original &&
+        <div className="sale">
+          <span>{perc}% OFF - But only TODAY, ON {dayName}</span>
+        </div>
+      }
+    </div>
+  )
+}
+
+export function Question({total, num, title, p1, p2}){
+  return (
+    <div className="question">
+      <div className="header">
+        <h4 dangerouslySetInnerHTML={{__html:title}}></h4>
+        <div className="num">{num+1}/{total}</div>
+      </div>
+      <div className="body">
+        <p dangerouslySetInnerHTML={{__html:p1}}></p>
+        {p2 &&
+          <p dangerouslySetInnerHTML={{__html:p2}}></p>
+        }
       </div>
     </div>
   )

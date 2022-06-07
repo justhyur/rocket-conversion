@@ -172,7 +172,7 @@ export default function MistakesSections() {
           />
           <div className="numbered-list">
             <ul>
-              <li><span>1</span><a className="link" href="#pricing">Buy the most comprehensive Rocket Profit Checklist on the planet.</a></li>
+              <li><span>1</span><a className="link" href="#prices">Buy the most comprehensive Rocket Profit Checklist on the planet.</a></li>
               <li><span>2</span>Go over every checkpoint and evaluate your store.</li>
               <li><span>3</span>Implement the tasks, starting with those that require the least amount of effort and bring the biggest effect.</li>
               <li><span>4</span>Once you&apos;re done with your tasks, start enjoying looking at the increased profit that my list brought to you.</li>
