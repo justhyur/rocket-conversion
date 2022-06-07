@@ -11,7 +11,7 @@ export default function PricingSection() {
       <div className="main-title">
         <SpecialTitle 
           pretitle="STOP LEAVING (HEAPS OF) MONEY ON THE TABLE"
-          title="Get your Rocket Conversion
+          title="Get your Rocket Profit
           checklist NOW!"
           h={2}
         />
@@ -39,7 +39,7 @@ export default function PricingSection() {
               <p>Included: <strong>100 critical conversion checkpoints</strong></p>
               <p>Checklist last updated: <strong>{latestDate}</strong></p>
               <a className="cta" href="https://buy.stripe.com/00g02dbBKcum3lefYY">
-                <span>Buy my Rocket Conversion List Now!</span>
+                <span>Buy my Rocket Profit List Now!</span>
               </a>
               <div className="pay-info">
                 <p>You will be redirected to Stripe where you can pay with:</p>

@@ -5,7 +5,7 @@ import 'moment-timezone';
 export function Cta() {
   return (
         <a className="cta" href="#pricing">
-            <span>Get my Rocket Conversion List Now!</span>
+            <span>Get my Rocket Profit List Now!</span>
         </a>
   )
 }

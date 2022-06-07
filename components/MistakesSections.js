@@ -69,11 +69,7 @@ export default function MistakesSections() {
         <div className="margined">
           <SpecialTitle 
             size="m"
-            title="In the list I cover every secret I
-            found out in my 5 years
-            experience to increase your
-            customers&apos; CLTV and decrease
-            CPA"
+            title="But what if I told you that your ads aren&apos;t the problem?"
           />
           <div className="container m margin-auto">
             <p>The job of your ads is to bring clicks to your website</p>
@@ -84,7 +80,7 @@ export default function MistakesSections() {
           <SpecialTitle 
             size="m"
             imagePath="/images/solution.svg"
-            title="This is where <strong>Rocket Conversion</strong> comes into play"
+            title="This is where <strong>Rocket Profit</strong> comes into play"
             noPadding
         />
           <p>Every 1 dollar that you invest in improvements for your business today
@@ -100,12 +96,12 @@ export default function MistakesSections() {
         <div className="margined m">
           <SpecialTitle 
             size="m"
-            title="Findthe lowest-hanging
-            fruiton your online store"
+            title="Find the lowest-hanging
+            fruit on your online store"
           />
           <div className="container m margin-auto">
-            <p>Now, first things first… If you decide to buy my Rocket Conversion
-            listand you&apos;re left with a useless and difficult-to-understand checklist,
+            <p>Now, first things first… If you decide to buy my Rocket Profit
+            list and you&apos;re left with a useless and difficult-to-understand checklist,
             then you are no closer to your goals than you were before</p>
             <p><strong>Instead, I&apos;ve made it my mission to make things as clear as possible
             for you.</strong></p>
