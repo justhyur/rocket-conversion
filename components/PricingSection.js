@@ -41,7 +41,7 @@ export default function PricingSection() {
               <a className="cta" href="https://buy.stripe.com/00g02dbBKcum3lefYY">
                 <span>Buy my Rocket Conversion List Now!</span>
               </a>
-              <div class="pay-info">
+              <div className="pay-info">
                 <p>You will be redirected to Stripe where you can pay with:</p>
                 <img src="/images/logos1.png"/>
                 <p>After payment, you will get your spreadsheet <b>immediately</b>.</p>
@@ -56,7 +56,7 @@ export default function PricingSection() {
       </div>
       <div>
         <img src="/images/norton.png"/>
-        
+
       </div>
     </section>
   )

@@ -124,7 +124,7 @@ export default function MistakesSections() {
             <li><strong>Increase your average order value/Customer LTV</strong></li>
             <li><strong>Skyrocket your Profit.</strong></li>
           </ul>
-          <p>With my Rocket Profit Checklist you'll be able to drill down into every 
+          <p>With my Rocket Profit Checklist you&apos;ll be able to drill down into every 
             aspect of your online store, armed with a list of over 100 important 
             checkpoints and  years of marketing manager/business analyst, so you are 
             going to <strong>squeeze every last drop of conversions from your business</strong>.</p>

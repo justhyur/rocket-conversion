@@ -9,7 +9,7 @@ export default function PresentationSection() {
                 <p>Hey — <a href="#">I&apos;m Jack</a>, the creator of Rocket Conversion and the business analyst behind some 7 figures stores.</p>
             </div>
             <p>My typical client averages 250.000 monthly single-users on their website.</p>
-            <p>To be profitable with these numbers, your entire eCom structure must be as efficient as possible. I've analysed and managed dozens of eCommerce niches, taking notes trough the years of what IS and IS NOT working.I came up with a checklist where I have listed all the nooks and crannies that each one of them has implemented...</p>
+            <p>To be profitable with these numbers, your entire eCom structure must be as efficient as possible. I&apos;ve analysed and managed dozens of eCommerce niches, taking notes trough the years of what IS and IS NOT working. I came up with a checklist where I have listed all the nooks and crannies that each one of them has implemented...</p>
             <p className="flexm c-c text-center"><strong>to convert like crazy.</strong></p>
         </div>
         <SpecialTitle 
