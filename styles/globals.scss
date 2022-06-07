@@ -866,10 +866,7 @@ p{
       flex-direction: column;
       width: 100%;
       max-width: (6*$u);
-      padding: 2rem 0;
-      @media screen and (max-width: (6*$u)){
-        padding: 1rem 0;
-      }
+      padding: 1rem 0;
       gap: 1rem;
       .question{
         background-color: #EBEBE9;
@@ -926,3 +923,17 @@ p{
   }
 }
 
+#footer{
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: center;
+  gap: 2rem;
+  a{
+    color: #999;
+    &:hover{
+      text-decoration: underline;
+      color: #CCCCCB;
+    }
+  }
+}
