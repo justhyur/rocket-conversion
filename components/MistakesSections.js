@@ -10,26 +10,19 @@ export default function MistakesSections() {
           online stores make"
         />
         <div className="container">
-          <p>Working as a Business analyst for the past 5 years, I&apos;ve learned that most
-          business-killing mistakes comes from missing out very important and
-          unknown procedures. By analyzing dozens of businesses I will disclose to
-          you 3 main errors.</p>
-          <p>If you lacks time, and try to do too many things by yourself without
-          knowing exactly what to do, then your business it&apos;s not going to reach
-          its full potential in terms of sales and profits.</p>
+          <p>In the past years, I&apos;ve learned that most eCom-killing mistakes boil down to the basics.</p>
+          <p>Making these mistakes your business is not going to reach its full potential in terms of sales and profits.</p>
           <p>Far from it, in fact.</p>
-          <p>After analyzing and optimizing dozens of online businesses I&apos;ve noticed
-          that almost ALL of them are making the same 3 business-killing
-          mistakes.</p>
+          <p>After analysing dozens of online stores I&apos;ve noticed that <strong>almost ALL of them</strong> are making the same 3 conversion killing mistakes.</p>
         </div>
     </section>
     <section id="mistakes2" className="section">
         <div className="box red">
           <h3>Here are the 3 biggest mistakes:</h3>
           <ul>
-            <li>They make their checkout process <strong>needlessly complicated and confusing.</strong></li>
-            <li>Their product pages <strong>don&apos;t include all of the crucial, must-have sales elements.</strong></li>
-            <li>They don&apos;t offer a great and <strong>effortless mobile shopping experience.</strong></li>
+            <li>They don&apos;t know how <strong>to constantly decrease their CPA.</strong></li>
+            <li>They don&apos;t <strong>properly segment their audiences.</strong></li>
+            <li>They don&apos;t offer a great and<strong>effortless offer.</strong></li>
           </ul>
         </div>
         <div className="container">
@@ -40,27 +33,23 @@ export default function MistakesSections() {
           <SpecialTitle 
             size="m"
             pretitle="ASK YOURSELF"
-            title="How much faster would you be able
-            to grow if you would knew these
-            things?"
+            title="How much faster would you be able to grow if your profit doubled?"
           />
           <p>You could be just three easy steps away from reaching another 100…
           200… 1000 sales per day.</p>
-          <p>All you need to do is click the button below and buy the most
-          comprehensive money-focused e-commerce checklist on the planet. A
-          little investement now can really make the difference in the near future.</p>
+          <p>All you need to do is click the button below and buy the most comprehensive profit-focused e-commerce checklist on the planet.</p>
           <Cta/>
         </div>
         <div className="margined">
           <Testimonial
             stars={5}
-            username="@boss2"
-            date="Feb 5, 2022"
+            username="@sierich"
+            date="Mar 5, 2022"
             comment="This is great! From now on all I need is that spreadsheet to show my
             customers what&apos;s their current status and what they need to do! I LOVE IT!"
-            imagePath="/images/boss2.jpeg"
-            name="Boss2"
-            profession="Marketing Ad Specialists"
+            imagePath="/images/richard.jpeg"
+            name="Richard Sieghart"
+            profession="Product Manager/Designer"
           />
         </div>
         <div className="box black">
@@ -72,11 +61,10 @@ export default function MistakesSections() {
           <p>Here&apos;s a crazy thing:</p>
           <p>Almost every store I&apos;ve audited recently seemed to be facing the exact same problem:</p>
           <p><strong>A steady increase in customer acquisition costs</strong></p>
-          <p>All of these store owners (or their teams) were spending hundreds
-            of hours every month optimizing their ad campaigns... yet every
-            single year — without fail! — it&apos;s been getting more and more
-            expensive to get customers and more and more difficult to be
-            profitable</p>
+          <p>All of these store owners (or their teams) were spending hundreds 
+            of hours every month optimizing their ad campaigns... 
+            yet every single year — without fail! — it&apos;s been getting more 
+            and more expensive to convert website visitors into buyers.</p>
         </div>
         <div className="margined">
           <SpecialTitle 
@@ -132,36 +120,35 @@ export default function MistakesSections() {
             h={3}
           />
           <ul>
-            <li><strong>Decrease the cost per acquisition of your customers</strong></li>
-            <li><strong>Increase your customers&apos; retention rate and CLTV</strong></li>
+            <li><strong>Decrease your customer acquisition costs</strong></li>
+            <li><strong>Increase your average order value/Customer LTV</strong></li>
             <li><strong>Skyrocket your Profit.</strong></li>
           </ul>
-          <p>With my Rocket Conversion list you&apos;ll be able to drill down into every
-          aspect of your business, armed with a list of over 100 important
-          checkpoints and 5+ years of my business analyst experience, so you are
-          going to <strong>squeeze every last drop of conversions from your business.</strong></p>
-          <p>And finally, the checklist will tell you exactly which steps you need to
-          take, so you will be able to implement the changes that require the least
-          amount of effort and deliver the biggest improvement right off the bat.
+          <p>With my Rocket Profit Checklist you'll be able to drill down into every 
+            aspect of your online store, armed with a list of over 100 important 
+            checkpoints and  years of marketing manager/business analyst, so you are 
+            going to <strong>squeeze every last drop of conversions from your business</strong>.</p>
+          <p>And finally, the checklist will tell you exactly which steps you need to take, 
+            so you will be able to implement the changes that require the least amount of 
+            effort and deliver the biggest conversion impact right off the bat.
           </p>
           <Cta/>
         </div>
         <div className="margined">
           <Testimonial
             stars={5}
-            username="@boss3"
+            username="@dimabalanchuk"
             date="Mar 7, 2022"
-            comment="Bravo @jakasmid - absolutely amazing resource: the added value here is off
-            the charts! Keep the good work!"
-            imagePath="/images/boss2.jpeg"
-            name="Boss3"
-            profession="Co-founder of cloverlabs.io"
+            comment="Bravo @JackB - absolutely amazing resource: the added value here is off the charts! Keep the good work! "
+            imagePath="/images/dimitri.jpg"
+            name="Dimitri Balanchuk"
+            profession="Ad Specialist"
           />
         </div>
         <SpecialTitle 
           size="m"
           title="Preview of the checklist
-          (34 out of 300 checkpoints)"
+          (17 out of 100 checkpoints)"
         />
         <div className="full-image">
           <img src="/images/example.png"/>
@@ -171,16 +158,15 @@ export default function MistakesSections() {
             title="Why should you trust me?"
           />
           <div className="container m margin-auto">
-            <p>As I mentioned above, I&apos;ve analysed and optimized dozens of stores. I&apos;ve
+            <p>As I mentioned above, I&apos;ve
             helped <strong>online store owners bring in 6 figures of additional profits in the
             last year alone.</strong></p>
-            <p>I&apos;m a deeply analytical guy at heart and during all of my 5+ years in this
-            industry, I&apos;ve remained obsessed with what truly works and what doesn&apos;t
-            in the real world. Which changes have an actual effect on the business.
-            What elements increase sales and profits, and how.
+            <p>I&apos;m a deeply analytical guy at heart and during all of my years in the online industry, 
+              I&apos;ve remained obsessed with what truly works and what doesn&apos;t in the real world. 
+              Which changes have an actual effect, what elements increase sales and profits, and how.
             </p>
-            <p>Bottom line is, I have a deep understanding of what affects conversions
-            — and I&apos;m happy to share all of this knowledge and experience with you.</p>
+            <p>Bottom line is, I have a deep understanding of what affects online stores — 
+              and I&apos;m happy to share all of this knowledge and experience with you.</p>
           </div>
         </div>
           <SpecialTitle 
@@ -190,10 +176,10 @@ export default function MistakesSections() {
           />
           <div className="numbered-list">
             <ul>
-              <li><span>1</span><a className="link" href="#pricing">Buy the most comprehensive E-commerce Checklist on the planet.</a></li>
-              <li><span>2</span>Go over every each one of the checkpoints and evaluate your business</li>
-              <li><span>3</span>Implement the tasks, starting with those that require the least amount of effort and bring the biggest effect</li>
-              <li><span>4</span>Once you&apos;re done with your tasks, start enjoying looking at the increased revenue that my list brought to you.</li>
+              <li><span>1</span><a className="link" href="#pricing">Buy the most comprehensive Rocket Profit Checklist on the planet.</a></li>
+              <li><span>2</span>Go over every checkpoint and evaluate your store.</li>
+              <li><span>3</span>Implement the tasks, starting with those that require the least amount of effort and bring the biggest effect.</li>
+              <li><span>4</span>Once you&apos;re done with your tasks, start enjoying looking at the increased profit that my list brought to you.</li>
             </ul>
           </div>
 

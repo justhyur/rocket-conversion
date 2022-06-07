@@ -4,14 +4,14 @@ import 'moment-timezone';
 
 export function Cta() {
   return (
-        <a className="cta" href="#">
+        <a className="cta" href="#pricing">
             <span>Get my Rocket Conversion List Now!</span>
         </a>
   )
 }
 
 export function ProfilePic({colored, href}){
-  const imgURL = "/images/jacopo.jpg";
+  const imgURL = "/images/jack.jpg";
   const Pic = () => {
     return (
       <div className={`profile-pic-container ${colored? 'colored' : ''} ${href? 'link' : ''}`}>
@@ -75,8 +75,8 @@ export function PricingTable({original, current}){
   const dayName = moment(now).format("dddd").toUpperCase();
   return (
     <div className="pricing-table">
-      <div className="original">${original}</div>
-      <div className="current">${current}</div>
+      <div className="original">€{original}</div>
+      <div className="current">€{current}</div>
       <div className="sale">
         <span>{perc}% OFF - But only TODAY, ON {dayName}</span>
       </div>

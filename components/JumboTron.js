@@ -9,8 +9,8 @@ export default function JumboTron() {
             <div className="centered-container">
                 <img src="/images/product-hunt-badge.svg"/>
             </div>
-            <h1>How much money are you leaving on the table right now?</h1>
-            <p>Want to start or you already own a multiple figures online store? Get the most comprehensive step to step E-commerce Checklist that will <strong>skyrocket your sales.</strong></p>
+            <h1>The Ultimate Checklist to convert visitors into Loyal Customers</h1>
+            <p>I help e-Commerces to grow their profit with in-depth <strong>business analysis</strong>.</p>
             <div className="centered-container">
                 <Cta/>
             </div>

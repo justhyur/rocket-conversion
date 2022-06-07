@@ -22,32 +22,41 @@ export default function PricingSection() {
           </div>
           <div className="body">
             <PricingTable
-              original={119.99}
-              current={67}
+              original={109.99}
+              current={39.99}
             />
-            <div className="title">Get a checklist that covers every single aspects of a succesful Business Structure:</div>
+            <div className="title">Get a checklist that covers:</div>
             <ul>
-              <li>Funnel</li>
-              <li>Google Ads + Google Analytics and GTM</li>
-              <li>Facebook and Tik Tok Ads</li>
-              <li>Advanced Email Marketing + Sms Marketing</li>
-              <li>Checkout page</li>
-              <li>Website Optimization</li>
-              <li><strong>FREE BONUS</strong> Know your Numbers (CPA calculator and Profit Estimation Calculator)</li>
+              <li>Direct Marketing</li>
+              <li>Google Ads + Facebook Ads</li>
+              <li>Unique Offer</li>
+              <li>Conversion Rate Optimization</li>
+              <li>Business Development</li>
+              <li>Work Organization</li>
+              <li><strong>FREE BONUS</strong> Know your Numbers (CPA calculator)</li>
             </ul>
             <div className="info">
-              <p>Included: <strong>70 critical conversion checkpoints</strong></p>
+              <p>Included: <strong>100 critical conversion checkpoints</strong></p>
               <p>Checklist last updated: <strong>{latestDate}</strong></p>
-              <a className="cta" href="#">
+              <a className="cta" href="https://buy.stripe.com/00g02dbBKcum3lefYY">
                 <span>Buy my Rocket Conversion List Now!</span>
               </a>
+              <div class="pay-info">
+                <p>You will be redirected to Stripe where you can pay with:</p>
+                <img src="/images/logos1.png"/>
+                <p>After payment, you will get your spreadsheet <b>immediately</b>.</p>
+              </div>
             </div>
           </div>
           <div className="footer">
             <p>Do you want to share the Checklist with your clients?</p>
-            <p><a className="link" href="#">Purchase the extended license for just $189</a></p>
+            <p><a className="link" href="https://buy.stripe.com/14k8yJbBKfGy4piaEF">Purchase the extended license for just €149.99</a></p>
           </div>
         </div>
+      </div>
+      <div>
+        <img src="/images/norton.png"/>
+        
       </div>
     </section>
   )
