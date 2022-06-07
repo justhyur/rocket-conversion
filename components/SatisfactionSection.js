@@ -26,7 +26,7 @@ export default function SatisfactionSection() {
         <div className="content">
           <h3>100% 14-Day Money Back Guarantee</h3>
           <p>After your purchase, you have 14 days to ensure the Rocket Checklist is valuable for you. 
-            If you're not completely satisfied and don't find value in it, 
+            If you&apos;re not completely satisfied and don&apos;t find value in it, 
             I will refund your payment, guaranteed!</p>
         </div>
       </div>
@@ -109,6 +109,7 @@ export default function SatisfactionSection() {
         <div className="questions">
           {questions.map((question, index)=>(
             <Question
+              key={`question${index}`}
               total={questions.length}
               num={index}
               title={question.title}
