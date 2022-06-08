@@ -4,7 +4,7 @@ import MistakesSections from "/components/MistakesSections";
 import PricingSection from "/components/PricingSection";
 import SatisfactionSection from "/components/SatisfactionSection";
 import FooterSection from "/components/FooterSection";
-import Head from "next/head"
+import Head from "next/head";
 
 export default function HomePage() {
   return (<>

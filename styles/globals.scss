@@ -850,6 +850,9 @@ p{
     }
   }
   .questions-container{
+    .special-title{
+      padding: 0 2rem;
+    }
     max-width: (5*$u);
     padding: 2rem 0;
     @media screen and (max-width: (4*$u)){
@@ -934,6 +937,17 @@ p{
     &:hover{
       text-decoration: underline;
       color: #CCCCCB;
+    }
+  }
+}
+
+.extra-page{
+  padding: 2rem;
+  a{
+    color:#0091ff;
+    &:hover{
+      color:#31A5FD;
+      text-decoration: underline;
     }
   }
 }
