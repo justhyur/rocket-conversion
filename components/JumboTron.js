@@ -5,7 +5,20 @@ export default function JumboTron() {
     <section id="jumbo-tron" className="section">
         <div className="extra-bg"></div>
         <div className="container">
-            <ProfilePic colored href="#"/>
+            <div className="pic-container">
+                <ProfilePic colored href="#"/>
+                <div className="info">
+                    <div className="author">
+                        <h3>Jack B.</h3>
+                        <div className="auth-img">
+                            <img src="/images/verified.png"/>
+                        </div>
+                    </div>
+                    <div className="profession">
+                        Business Analyst
+                    </div>
+                </div>
+            </div>
             <div className="centered-container">
                 <img src="/images/product-hunt-badge.svg"/>
             </div>

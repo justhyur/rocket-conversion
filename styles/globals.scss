@@ -200,6 +200,29 @@ p{
   background-color: black;
   padding: 3rem $frame;
   position: relative;
+  .pic-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    .author{
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      h3{
+        color: white;
+        font-size: clamp(1.25rem, 3vw, 1.5rem);
+      }
+      .auth-image{
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+    .profession{
+      color: #6D6D6D;
+      font-size: 1rem;
+    }
+  }
   .extra-bg{
     background-color: $bg-color;
     height: 360px;
