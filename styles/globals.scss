@@ -68,6 +68,11 @@ p{
 .text-center{
   text-align: center;
 }
+.desktop-only{
+  @media screen and (max-width: (5*$u) ){
+    display: none !important;
+  }
+}
 
 .cta-black{
   height: 4.25rem;
@@ -973,4 +978,10 @@ p{
       text-decoration: underline;
     }
   }
+}
+
+.checklist-preview{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }

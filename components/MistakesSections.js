@@ -141,13 +141,15 @@ export default function MistakesSections() {
             profession="Ad Specialist"
           />
         </div>
-        <SpecialTitle 
-          size="m"
-          title="Preview of the checklist
-          (17 out of 100 checkpoints)"
-        />
-        <div className="full-image">
-          <img src="/images/example.png"/>
+        <div className="checklist-preview desktop-only">
+          <SpecialTitle 
+            size="m"
+            title="Preview of the checklist
+            (17 out of 100 checkpoints)"
+          />
+          <div className="full-image">
+            <img src="/images/example.png"/>
+          </div>
         </div>
         <div className="margined m">
           <SpecialTitle 
