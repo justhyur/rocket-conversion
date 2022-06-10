@@ -6,7 +6,7 @@ export default function JumboTron() {
         <div className="extra-bg"></div>
         <div className="container">
             <div className="pic-container">
-                <ProfilePic colored href="#"/>
+                <ProfilePic colored/>
                 <div className="info">
                     <div className="author">
                         <h3>Jack B.</h3>
