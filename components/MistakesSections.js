@@ -22,7 +22,7 @@ export default function MistakesSections() {
           <ul>
             <li>They don&apos;t know how <strong>to constantly decrease their CPA.</strong></li>
             <li>They don&apos;t <strong>properly segment their audiences.</strong></li>
-            <li>They don&apos;t offer a great and<strong>effortless offer.</strong></li>
+            <li>They don&apos;t offer a great and<strong> effortless offer.</strong></li>
           </ul>
         </div>
         <div className="container">
