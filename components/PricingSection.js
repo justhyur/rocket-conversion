@@ -78,7 +78,7 @@ export default function PricingSection() {
               <div className="info">
                 <p>Included: <strong>100 critical conversion checkpoints</strong></p>
                 <p>Delivered: <strong>within 15 business days</strong></p>
-                <a className="cta-black" href="https://docs.google.com/forms/d/1ZSrTDnRe-lvaz3RaaTbJFbZp2C1n0rx8TxEuEtdWUaA" target="_blank" rel="noreferrer">
+                <a className="cta-black" href="https://docs.google.com/forms/d/e/1FAIpQLSd7KbIVYdAgs246u9zq0t3mBl9ZpK29XqnxtAj783JpPE-8_g/viewform" target="_blank" rel="noreferrer">
                   <span>Sign up for a CRO Audit</span>
                 </a>
               </div>
