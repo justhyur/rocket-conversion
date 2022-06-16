@@ -32,50 +32,75 @@ export default function SatisfactionSection() {
       </div>
       <div className="main-title">
         <SpecialTitle 
-          title="Why more than 3300+ satisfied customers just ❤️ the E-commerce Checklist"
+          title="Why more than 3300+ satisfied customers just ❤️ the Rocket Profit Checklist"
           h={2}
         />
       </div>
       <div className="photo-reviews">
-        <img src="/images/tweets/tweet_test.png"/>
-        <img src="/images/tweets/tweet_test.png"/>
-        <img src="/images/tweets/tweet_test.png"/>
-        <img src="/images/tweets/tweet_test.png"/>
+        <img src="/images/tweets/01.png"/>
+        <img src="/images/tweets/02.png"/>
+        <img src="/images/tweets/03.png"/>
+        <img src="/images/tweets/04.png"/>
+        <img src="/images/tweets/05.png"/>
+        <img src="/images/tweets/06.png"/>
+        <img src="/images/tweets/07.png"/>
+        <img src="/images/tweets/08.png"/>
+        <img src="/images/tweets/09.png"/>
+        <img src="/images/tweets/10.png"/>
+        <img src="/images/tweets/11.jpg"/>
+        <img src="/images/tweets/12.jpg"/>
         <Testimonial
           stars={5}
-          username="@silvdylan"
-          date="Feb 20, 2022"
-          comment="I&apos;ve seen my fair share of e-commerce checklists during the years, this one takes the cake. Looks super comprehensive and it&apos;s ACTIONABLE. Superb job @JackB"
-          imagePath="/images/silvester.jpeg"
-          name="Silvester Dylan"
-          profession="Marketing Consultant"
+          username="@elanne"
+          date="Jan 14, 2022"
+          comment="I&apos;m very grateful to Jack for making this list. 
+          It&apos;s very thorough and therefore very useful for everyone 
+          who needs to make an audit of their online store and everyone who 
+          wants to make the store more efficient. It can also be used as a 
+          learning tool, as every position on the list has a link to an article 
+          with more information and examples of usage. Great stuff! I was planning 
+          to prepare such a list myself for my own work, but never had enough time 
+          to do it. So it was a no-brainer for me to buy the list."
+          imagePath="/images/ela.jpg"
+          name="Ela Babić"
+          profession="E-commerce UX Designer"
         />
         <Testimonial
           stars={5}
-          username="@silvdylan"
-          date="Feb 20, 2022"
-          comment="I&apos;ve seen my fair share of e-commerce checklists during the years, this one takes the cake. Looks super comprehensive and it&apos;s ACTIONABLE. Superb job @JackB"
-          imagePath="/images/silvester.jpeg"
-          name="Silvester Dylan"
-          profession="Marketing Consultant"
+          username="@sergioruz"
+          date="May 02, 2022"
+          comment="This checklist by Jack is like your CRO bible; 
+          you should keep it with you at all costs while optimizing your business for conversions; 
+          the level of detail is far beyond
+           extraordinary for a fraction of the price! I am currently using this 
+           checklist to optimize my freelance client&apos;s webstore, and he was astonished 
+           by the detail level! Thank you, Jack, for saving many e-commerce entrepreneurs&apos; lives!"
+          imagePath="/images/dario.jfif"
+          name="Sergio Ruz"
+          profession="E-commerce Specialist | Conversion Copywriter | Content Writer"
         />
         <Testimonial
           stars={5}
-          username="@silvdylan"
-          date="Feb 20, 2022"
-          comment="I&apos;ve seen my fair share of e-commerce checklists during the years, this one takes the cake. Looks super comprehensive and it&apos;s ACTIONABLE. Superb job @JackB"
-          imagePath="/images/silvester.jpeg"
-          name="Silvester Dylan"
-          profession="Marketing Consultant"
+          username="@mathedez"
+          date="May 08, 2022"
+          comment="This consolidated list is simply awesome. 
+          Most of the so call training, conferences, webinars etc., 
+          provide only education. Yours is straight to the point 
+          and the whole list is nothing than actions."
+          imagePath="/images/matthew.jpg"
+          name="Matthew Dezy"
+          profession="E-commerce Store owner"
         />
         <Testimonial
           stars={5}
-          username="@silvdylan"
-          date="Feb 20, 2022"
-          comment="I&apos;ve seen my fair share of e-commerce checklists during the years, this one takes the cake. Looks super comprehensive and it&apos;s ACTIONABLE. Superb job @JackB"
-          imagePath="/images/silvester.jpeg"
-          name="Silvester Dylan"
-          profession="Marketing Consultant"
+          username="@vladaskalov"
+          date="May 12, 2022"
+          comment="This checklist is the most comprehensive 
+          checklist I have ever come across! It's so detailed,
+            there are tons of elements that work for basically any kind of business!"
+          imagePath="/images/vladimir.jpg"
+          name="Vladimir Daskalov"
+          profession="E-commerce Store owner"
         />
       </div>
       <div className="box white">

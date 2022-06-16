@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function PrivacyPage() {
   const website = "www.rocket-profit-checklist.com";
-  const email = "rocketprofit.info@gmail.com";
+  const email = "info.rocket.profit.conversion@gmail.com";
   const product = "Rocket Profit Checklist"
 
   return (<div className="extra-page">

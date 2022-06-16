@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 export default function PrivacyPage() {
-  const companyName = "Gunsi Productions OÜ";
+  const companyName = "Rocket Profit";
   const website = "www.rocket-profit-checklist.com";
   const product = "Rocket Profit Checklist";
   return (<div className="extra-page">
@@ -44,7 +44,17 @@ export default function PrivacyPage() {
 
 <p>{product} follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services&apos; analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users&apos; movement on the website, and gathering demographic information.</p>
 
-
+<h2>Cookies and Web Beacons</h2>
+<p>Like any other website, {companyName} uses &apos;cookies&apos;. These cookies are used to store information including visitors&apos; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&apos; experience by customizing our web page content based on visitors&apos; browser type and/or other information.</p>
+<p>For more general information on cookies, please read <a href="https://www.generateprivacypolicy.com/#cookies">the Cookies article on Generate Privacy Policy website</a>.</p>
+<h2>Our Advertising Partners</h2>
+<p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners are listed below. Each of our advertising partners has their own Privacy Policy for their policies on user data. For easier access, we hyperlinked to their Privacy Policies below.</p>
+<ul>
+<li>
+<p>Google</p>
+<p><a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+</li>
+</ul>
 
 
 <h2>Advertising Partners Privacy Policies</h2>

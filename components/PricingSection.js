@@ -18,7 +18,7 @@ export default function PricingSection() {
         <div className="price-cards" id="prices">
           <div className="price-card">
             <div className="header">
-              <div className="title">E-COMMERCE CHECKLIST</div>
+              <div className="title">ROCKET PROFIT CHECKLIST</div>
               <div className="subtitle">“The most comprehensive conversion list on the planet.”</div>
             </div>
             <div className="body">
