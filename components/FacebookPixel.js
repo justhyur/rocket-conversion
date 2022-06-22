@@ -10,7 +10,10 @@ const pageview = () => {
   window.fbq('track', 'PageView')
 }
 
-const FacebookPixel = ({ children, FB_PIXEL_ID }) => {
+const FacebookPixel = ({ children }) => {
+
+  const FB_PIXEL_ID = process.env.NEXT_PUBLIC_FB_PIXEL_ID;
+
   const router = useRouter()
 
   useEffect(() => {
@@ -21,7 +24,8 @@ const FacebookPixel = ({ children, FB_PIXEL_ID }) => {
     }
   }, [router?.events])
 
-  return (
+  return (<>
+    <div>${FB_PIXEL_ID}</div>
     <Script id="facebook-pixel">
       {`
         !function(f,b,e,v,n,t,s)
@@ -35,7 +39,7 @@ const FacebookPixel = ({ children, FB_PIXEL_ID }) => {
         fbq('init', ${FB_PIXEL_ID});
         fbq('track', 'PageView');
       `}
-    </Script>
+    </Script></>
   )
 }
 
