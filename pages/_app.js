@@ -5,7 +5,7 @@ import '../styles/globals.scss';
 import '../styles/flexmaster.scss'
 
 function MyApp({ Component, pageProps }) {
-  const FB_PIXEL_ID = process.env.FB_PIXEL_ID;
+  const FB_PIXEL_ID = process.env.NEXT_PUBLIC_FB_PIXEL_ID;
   console.log({FB_PIXEL_ID});
   return(<>
       <Head>
