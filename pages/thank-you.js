@@ -5,6 +5,8 @@ export default function ThankYouPage() {
     const scriptLaunched = useRef(false);
     useEffect(()=>{
       if(!scriptLaunched.current){
+        const pixelId = process.env.NEXT_PUBLIC_FB_PIXEL_ID;
+        console.log({pixelId})
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -13,6 +15,7 @@ export default function ThankYouPage() {
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', pixelId);
         fbq('track', 'Purchase');
         console.log('Script Launched');
         scriptLaunched.current = true;
