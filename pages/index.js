@@ -33,10 +33,7 @@ export default function HomePage() {
 
   return (<>
     <Head>
-      {/* <FacebookPixel/> */}
-      {/* <Script>
-        {`console.log('ciao')`}
-      </Script> */}
+      <meta name="facebook-domain-verification" content="0s5925djx3j35fuwylqxnq7i1mh22l" />
       <title>Rocket Profit Checklist</title>
     </Head>
     <div className="page">
