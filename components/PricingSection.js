@@ -40,7 +40,7 @@ export default function PricingSection() {
               <div className="info">
                 <p>Included: <strong>100 critical conversion checkpoints</strong></p>
                 <p>Checklist last updated: <strong>{latestDate}</strong></p>
-                <a className="cta" href="https://buy.stripe.com/00g02dbBKcum3lefYY">
+                <a className="cta" href="https://buy.stripe.com/00g02dbBKcum3lefYY" onClick={()=>{fbq('track', 'InitiateCheckout');}}>
                   <span>Buy my Rocket Profit List Now!</span>
                 </a>
                 <div className="pay-info">
