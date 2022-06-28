@@ -5,8 +5,6 @@ import PricingSection from "/components/PricingSection";
 import SatisfactionSection from "/components/SatisfactionSection";
 import FooterSection from "/components/FooterSection";
 import Head from 'next/head';
-import Script from 'next/script';
-import FacebookPixel from '../components/FacebookPixel';
 import {useState, useEffect, useRef} from 'react';
 
 export default function HomePage() {
