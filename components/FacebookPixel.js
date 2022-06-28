@@ -25,7 +25,7 @@ const FacebookPixel = ({ children }) => {
   }, [router?.events])
 
   return (<>
-    <div>${FB_PIXEL_ID}</div>
+    <meta description={FB_PIXEL_ID}/>
     <Script id="facebook-pixel">
       {`
         !function(f,b,e,v,n,t,s)
@@ -43,4 +43,4 @@ const FacebookPixel = ({ children }) => {
   )
 }
 
-export default FacebookPixel
+export default FacebookPixel;
