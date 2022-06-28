@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import Script from 'next/script'
 
@@ -12,7 +12,11 @@ const pageview = () => {
 
 const FacebookPixel = ({ children }) => {
 
-  const FB_PIXEL_ID = process.env.NEXT_PUBLIC_FB_PIXEL_ID;
+  const [FB_PIXEL_ID, setPixel] = useState(process.env.NEXT_PUBLIC_FB_PIXEL_ID);
+  useEffect(()=>{
+    console.log({FB_PIXEL_ID});
+  },[FB_PIXEL_ID])
+  console.log('yo')
 
   const router = useRouter()
 
