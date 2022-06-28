@@ -29,7 +29,7 @@ export default function JumboTron() {
             </div>
             <div className="video-container">
                 <iframe 
-                    src="https://www.youtube.com/embed/Wvva0Q6Ybb0?playlist=Wvva0Q6Ybb0&loop=1&autoplay=1&controls=0" 
+                    src="https://www.youtube.com/embed/oMdbeuHFAJ8?playlist=oMdbeuHFAJ8&loop=1&autoplay=1&controls=0" 
                     title="Rocket Profit Checklist Preview" 
                     frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowFullScreen
